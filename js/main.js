@@ -1,38 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import new custom react component
-import ExampleWork from './example-work';
+import ExampleWork from './example-work'
 
 const myWork = [
   {
-    'title': "All You Need",
-    'href': "https://www.github.com/pearcem0/all-you-need-window-manager",
-    'desc': "FVWM based window manager. Powerful yet disctraction free. Lightweight, (sort of) customisable. Encourages the user to a. Use the command line more, and b. fix what they don't like about the window manager themselves by customising the FVWM Script.",
+    'title': "Work Example",
+    'href': "https://example.com",
+    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     'image': {
-      'desc': "",
-      'source': "images/ayn.png",
+      'desc': "example screenshot of a project involving code",
+      'src': "images/example1.png",
       'comment': ""
     }
-  }, {
-    'title': "AWS Lambda Snapshot Backup & Prune",
-    'href': "https://www.github.com/pearcem0/aws-backup-lambda",
-    'desc': "AWS lambda scripts to run weekly backup snapshots and additional pruning of old snapshots. Scripts written in python.",
+  },
+  {
+    'title': "Portfolio Boilerplate",
+    'href': "https://example.com",
+    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     'image': {
-      'desc': "",
-      'source': "images/aws.png",
+      'desc': "A Serverless Portfolio",
+      'src': "images/example2.png",
       'comment': ""
     }
-  }, {
-    'title': "Salesforce Administration Areas",
-    'href': "https://www.github.com/pearcem0/salesforce-adminareas",
-    'desc': "Map administrative area information to a custom salesforce object using the records post code and external api calls.",
+  },
+  {
+    'title': "Work Example",
+    'href': "https://example.com",
+    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     'image': {
-      'desc': "",
-      'source': "images/sf.png",
-      // use backticks to use javascript template string, on multi line
-      'comment': ""
+      'desc': "example screenshot of a project involving cats",
+      'src': "images/example3.png",
+      'comment': `"Bengal cat" by roberto shabs is licensed under CC BY 2.0
+                  https://www.flickr.com/photos/37287295@N00/2540855181`
     }
   }
 ]
-ReactDOM.render(
-  <ExampleWork work={myWork}/>, document.getElementById('example-work'));
+
+ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'))

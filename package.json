@@ -1,37 +1,38 @@
 {
-  "name": "acloudguru",
+  "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Portfolio",
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test-watch": "jest --watch",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PanharithChhum/portfolio.git"
+    "url": "https://github.com/robin-acloud/my-portfolio.git"
   },
-  "author": "",
+  "author": "Robin Norwood <robin@acloud.guru>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PanharithChhum/portfolio/issues"
+    "url": "https://github.com/robin-acloud/my-portfolio/issues"
   },
-  "homepage": "https://github.com/PanharithChhum/portfolio#readme",
+  "homepage": "https://github.com/robin-acloud/my-portfolio",
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-jest": "^21.2.0",
-    "babel-loader": "^7.1.2",
+    "babel-core": "^6.25.0",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "enzyme": "^3.2.0",
-    "enzyme-adapter-react-15": "^1.0.5",
-    "jest": "^21.2.1",
-    "react-test-renderer": "^16.2.0",
-    "webpack": "^3.10.0"
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-15": "^1.0.1",
+    "jest": "^20.0.4",
+    "react-test-renderer": "^15.6.1",
+    "webpack": "^3.0.0"
   }
 }
